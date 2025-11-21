@@ -14,9 +14,9 @@ void MainMenu()
     Console.WriteLine("2: Subtraction");
     Console.WriteLine("3: Multiplication");
     Console.WriteLine("4: Division");
-    Console.WriteLine("5: Random");
-    Console.WriteLine("6: History");
-    Console.WriteLine("7. Exit Game");
+    //Console.WriteLine("5: Random"); //change the numbers below when this is updated. 
+    Console.WriteLine("5: History");
+    Console.WriteLine("6. Exit Game");
 
     int gameSelect = Convert.ToInt32(Console.ReadLine());
 
@@ -37,7 +37,7 @@ void MainMenu()
     {
         Division();
     }
-    if(gameSelect == 6)
+    if(gameSelect == 5)
     {
         ViewHistory();
     }
